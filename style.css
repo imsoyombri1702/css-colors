@@ -1,1 +1,45 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to top right,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  font-family: Georgia, "Times New Roman", serif;
+  color: hsl(0, 0%, 15%);
+}
+
+.card {
+  background-color: hsla(0, 50%, 100%, 0.5);
+  width: min(520px, 90vw);
+  padding: 28px 36px 32px;
+  border-radius: 8px;
+  border: 1px solid hsla(0, 50%, 100%, 0.7);
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.card p {
+  font-size: 0.72rem;
+  line-height: 1.55;
+  text-align: justify;
+}
